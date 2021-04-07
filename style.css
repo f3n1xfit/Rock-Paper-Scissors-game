@@ -3,16 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
-#scissor, #paper, #rockbutton, #rock {
-  max-width: 20%;
-  height: auto;
-}
-
-#rock {
-  float: left;
-  
-}
 html {
   background-color: aqua;
   text-align: center;
@@ -22,4 +12,31 @@ html {
   font-size: 30px;
   font-weight: bolder;
 }
+
+#paperButton {
+  float: center;
+  min-width: 20%;
+  min-height: 20%;
+  background-image: url(/paper.png);
+  background-size: 100%;
+}
+
+#scissorButton {
+  float: right;
+  margin-right: 20%;
+  min-width: 20%;
+  background-image: url(/scissor.png);
+  background-size: 100%;
+}
+
+#rockButton {
+  float: left;
+  margin-left: 20%;
+  min-width: 20%;
+  min-height: auto;
+  padding: 20px;
+  background-image: url(/rock.png);
+  background-size: cover;
+}
+
 
