@@ -15,28 +15,25 @@ html {
 
 #paperButton {
   float: center;
-  min-width: 20%;
-  min-height: 20%;
-  background-image: url(/paper.png);
-  background-size: 100%;
+  max-width: 20%;
+  padding: 10px;
 }
 
 #scissorButton {
   float: right;
   margin-right: 20%;
-  min-width: 20%;
-  background-image: url(/scissor.png);
-  background-size: 100%;
+  max-width: 20%;
+  padding: 10px;
 }
 
 #rockButton {
   float: left;
   margin-left: 20%;
-  min-width: 20%;
-  min-height: auto;
-  padding: 20px;
-  background-image: url(/rock.png);
-  background-size: cover;
+  max-width: 20%;
+  padding: 10px;
 }
 
+.buttonImage {
+  max-width: 100%;
+}
 
