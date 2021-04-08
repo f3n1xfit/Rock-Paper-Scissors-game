@@ -9,14 +9,24 @@ html {
 }
 
 #welcome {
+  margin-top: 10px;
   font-size: 30px;
   font-weight: bolder;
+  color: navy;
+}
+
+#choose {
+  padding: 20px;
+  color: navy;
 }
 
 #paperButton {
   float: center;
   max-width: 20%;
   padding: 10px;
+  background-color: blue;
+  color: crimson;
+  font-weight: bold;
 }
 
 #scissorButton {
@@ -24,6 +34,9 @@ html {
   margin-right: 20%;
   max-width: 20%;
   padding: 10px;
+  background-color: blue;
+  color: crimson;
+  font-weight: bold;
 }
 
 #rockButton {
@@ -31,9 +44,17 @@ html {
   margin-left: 20%;
   max-width: 20%;
   padding: 10px;
+  background-color: blue;
+  color: crimson;
+  font-weight: bold;
 }
 
 .buttonImage {
   max-width: 100%;
+}
+
+#rockButton:hover, #scissorButton:hover, #paperButton:hover {
+  background-color: navy;
+  cursor: pointer;
 }
 
