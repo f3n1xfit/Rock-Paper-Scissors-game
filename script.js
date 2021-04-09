@@ -4,9 +4,11 @@ const rockButton = document.getElementById('rock').addEventListener('click', pla
 
 function playRock() {
   const playerChoice = 'rock';
+
   if (playerChoice === computer(items)) {
     console.log('Stalemate');
   }
+
 }
 
 

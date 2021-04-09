@@ -15,9 +15,10 @@ html {
   color: navy;
 }
 
-#choose {
+#choose, #results, #userChoice, #computerChoice {
   padding: 20px;
   color: navy;
+  font-weight: bold;
 }
 
 #paper {
