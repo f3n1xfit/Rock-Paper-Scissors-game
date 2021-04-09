@@ -8,7 +8,7 @@ function playRock() {
   document.getElementById('computerChoice').innerText = `Computer has chosen ${computerChoice}`;
   if (computerChoice === 'Rock') {
     document.getElementById('results').innerText = "It's a tie!!";
-  } else if (computerChoice === 'Paper') {
+  } else if (computerChoice === 'Scissors') {
     document.getElementById('results').innerText = "You Win!!";
   } else {
     document.getElementById('results').innerText = "You Lose!!";
@@ -34,7 +34,7 @@ function playScissors() {
   document.getElementById('computerChoice').innerText = `Computer has chosen ${computerChoice}`;
   if (computerChoice === 'Scissors') {
     document.getElementById('results').innerText = "It's a tie!!";
-  } else if (computerChoice === 'Rock') {
+  } else if (computerChoice === 'Paper') {
     document.getElementById('results').innerText = "You Win!!";
   } else {
     document.getElementById('results').innerText = "You Lose!!";
