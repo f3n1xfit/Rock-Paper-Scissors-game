@@ -16,7 +16,7 @@ html {
 }
 
 #choose, #results, #userChoice, #computerChoice {
-  padding: 20px;
+  padding: 10px;
   color: navy;
   font-weight: bold;
 }

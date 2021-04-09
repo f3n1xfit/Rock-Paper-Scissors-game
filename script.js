@@ -7,7 +7,7 @@ function playRock() {
   document.getElementById('userChoice').innerText = 'You Have Chosen Rock';
   document.getElementById('computerChoice').innerText = `Computer has chosen ${computerChoice}`;
   if (computerChoice === 'Rock') {
-    document.getElementById('results').innerText = "It's a tie";
+    document.getElementById('results').innerText = "It's a tie!!";
   } else if (computerChoice === 'Paper') {
     document.getElementById('results').innerText = "You Win!!";
   } else {
@@ -20,7 +20,7 @@ function playPaper() {
   document.getElementById('userChoice').innerText = 'You Have Chosen Paper';
   document.getElementById('computerChoice').innerText = `Computer has chosen ${computerChoice}`;
   if (computerChoice === 'Paper') {
-    document.getElementById('results').innerText = "It's a tie";
+    document.getElementById('results').innerText = "It's a tie!!";
   } else if (computerChoice === 'Scissors') {
     document.getElementById('results').innerText = "You Win!!";
   } else {
@@ -33,7 +33,7 @@ function playScissors() {
   document.getElementById('userChoice').innerText = 'You Have Chosen Scissors';
   document.getElementById('computerChoice').innerText = `Computer has chosen ${computerChoice}`;
   if (computerChoice === 'Scissors') {
-    document.getElementById('results').innerText = "It's a tie";
+    document.getElementById('results').innerText = "It's a tie!!";
   } else if (computerChoice === 'Rock') {
     document.getElementById('results').innerText = "You Win!!";
   } else {
