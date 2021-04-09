@@ -1,16 +1,19 @@
-document.getElementById("rockButton").addEventListener('Click' runCompareRock());
+const rockButton = document.getElementById('rock').addEventListener('click', playRock);
+//const paperButton = document.getElementById('paper').addEventListener('click', playPaper);
+//const scissorsButton = document.getElementById('scissors').addEventListener('click', playScissors);
 
-function runCompareRock() {
-  const userChoice = document.getElementById('rockButton')
-  if (userChoice === computerChoice) {
-    prompt("Stalemate")
+function playRock() {
+  const playerChoice = 'rock';
+  if (playerChoice === computer(items)) {
+    console.log('Stalemate');
   }
 }
-const items = ['Rock', 'Paper', 'Scissors'];
+
+
+
+
 
 function computer(items) {
   return items[Math.floor(Math.random() * 3)]
 };
-
-const computerChoice = computer(items);
-console.log(computerChoice);
+const items = ['rock', 'paper', 'scissors'];
